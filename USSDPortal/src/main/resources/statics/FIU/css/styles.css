@@ -1,0 +1,77 @@
+
+.datavision_head {
+	background: #1572e8!important;
+	padding: 5px 15px;
+	color: #fff;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.swal2-content {
+  margin-bottom: 18px !important;
+}
+
+.cus_card-header {
+  /*  padding: .25rem .25rem;
+    padding-bottom: -9px;
+    border-top-left-radius: 75px !important;
+    border-top-right-radius: 75px !important;  */
+    background-color: #5851b6;
+    position: relative;
+}
+
+#head_card {
+	margin-left: 70px;
+    margin-right: 70px;
+}
+
+#head_card .card {
+	background-color: transparent;
+	border: 0px;
+	-webkit-box-shadow: none;
+	margin-bottom: 5px;
+}
+
+#head_card .card-title {
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-bottom: 0px;
+}
+
+.triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 50px solid white;
+    border-right: 50px solid transparent;
+    /* background: #000; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 50px solid white;
+    border-left: 50px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.form-group {
+    margin-bottom: 2px;
+}
+
+#colour_body{
+	
+	border-color: #5851b6;
+}
+
+.no_show {
+	display:none;
+}

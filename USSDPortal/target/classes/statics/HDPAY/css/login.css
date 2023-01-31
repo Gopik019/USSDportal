@@ -1,0 +1,81 @@
+html {
+    overflow: hidden;
+}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.form_align{
+	
+	
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.loginbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #4CAF50;
+}
+
+.container.foot{
+	background-color:#f1f1f1;
+}
+
+.center{
+	text-align: center;
+	margin-bottom: 20px;
+	color:#007bff;
+}
+
+.container {
+  padding: 16px;
+  margin-top:3%;
+  overflow: hidden;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+}
+.loginimage img{
+	width:100%;
+}
+.login_box {
+	margin-top:10%;
+	box-shadow: 3px 3px 10px #747474;
+	border-radius:20px;
+}

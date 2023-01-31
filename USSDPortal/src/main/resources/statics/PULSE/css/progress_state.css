@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.row .heading {
+    padding-left: 18px;
+    padding-bottom: 16px;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+	color: #6861ce!important;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.form-card {
+    text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform h5 {
+    font-size: 16px;
+}
+
+#msform h4 {
+    float:left;
+}
+
+.card {
+    z-index: 0;
+}
+
+.fs-title {
+    font-size: 25px;
+    color: #673AB7;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    color: #673AB7;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+.progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey;
+    
+}
+
+.progressbar .active {
+    color: #37b228;
+}
+
+.progressbar .failed {
+    color: #ff0000;
+}
+
+.progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 14%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+}
+
+.progressbar li:before {
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+}
+
+.progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    z-index: -1;
+}
+.start:after{
+	margin:0 0 0 85px !important;
+}
+.end:after{
+	margin:0 0 0 -85px !important;
+}
+.progressbar li.active:before,
+.progressbar li.active:after {
+    background: #37b228
+}
+
+.progressbar li.failed:before,
+.progressbar li.failed:after {
+    background: #ff0000;
+}
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: #673AB7
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}

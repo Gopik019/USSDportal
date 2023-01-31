@@ -1,0 +1,99 @@
+package com.hdsoft.ussd.Repositories;
+
+public class Menu007 {
+	
+	private String SUBORGCODE;
+	private String CHCODE;
+	private String M1CODE;
+	private String MENUTYPE;
+	private String MENUSL;
+	private String MENUDESC;
+	private String STATUS;
+	private String EDATE;
+	private String EUSER;
+	private String CDATE;
+	private String CUSER;
+	private String ADATE;
+	private String AUSER;
+	public String getSUBORGCODE() {
+		return SUBORGCODE;
+	}
+	public void setSUBORGCODE(String sUBORGCODE) {
+		SUBORGCODE = sUBORGCODE;
+	}
+	public String getCHCODE() {
+		return CHCODE;
+	}
+	public void setCHCODE(String cHCODE) {
+		CHCODE = cHCODE;
+	}
+	public String getM1CODE() {
+		return M1CODE;
+	}
+	public void setM1CODE(String m1code) {
+		M1CODE = m1code;
+	}
+	public String getMENUTYPE() {
+		return MENUTYPE;
+	}
+	public void setMENUTYPE(String mENUTYPE) {
+		MENUTYPE = mENUTYPE;
+	}
+	public String getMENUSL() {
+		return MENUSL;
+	}
+	public void setMENUSL(String mENUSL) {
+		MENUSL = mENUSL;
+	}
+	public String getMENUDESC() {
+		return MENUDESC;
+	}
+	public void setMENUDESC(String mENUDESC) {
+		MENUDESC = mENUDESC;
+	}
+	public String getSTATUS() {
+		return STATUS;
+	}
+	public void setSTATUS(String sTATUS) {
+		STATUS = sTATUS;
+	}
+	public String getEDATE() {
+		return EDATE;
+	}
+	public void setEDATE(String eDATE) {
+		EDATE = eDATE;
+	}
+	public String getEUSER() {
+		return EUSER;
+	}
+	public void setEUSER(String eUSER) {
+		EUSER = eUSER;
+	}
+	public String getCDATE() {
+		return CDATE;
+	}
+	public void setCDATE(String cDATE) {
+		CDATE = cDATE;
+	}
+	public String getCUSER() {
+		return CUSER;
+	}
+	public void setCUSER(String cUSER) {
+		CUSER = cUSER;
+	}
+	public String getADATE() {
+		return ADATE;
+	}
+	public void setADATE(String aDATE) {
+		ADATE = aDATE;
+	}
+	public String getAUSER() {
+		return AUSER;
+	}
+	public void setAUSER(String aUSER) {
+		AUSER = aUSER;
+	}
+
+	
+
+}
